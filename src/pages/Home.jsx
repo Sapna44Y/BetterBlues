@@ -1,5 +1,8 @@
 import Header from "../components/Header";
 import StatsSection from "../components/StatsSection";
+import ChildEdu from "../assets/images/eduction.jpg";
+import foodChild from "../assets/images/food-child.jpg";
+import waterSuppply from "../assets/images/water-supply.jpg";
 
 export default function Home() {
   return (
@@ -22,7 +25,7 @@ function HeroSection() {
       <div className="grid md:grid-cols-3 gap-8 mt-12">
         <div className="relative group">
           <img
-            src="/src/assets/images/eduction.jpg"
+            src={ChildEdu}
             alt="Child studying"
             className="w-full h-64 object-cover rounded-lg shadow-md hover:border-2 hover:border-gray-400  hover:shadow-2xl transition-shadow duration-300 group-hover:opacity-85 transition"
           />
@@ -48,7 +51,7 @@ function HeroSection() {
         </div>
         <div className="relative group">
           <img
-            src="/src/assets/images/food-child.jpg"
+            src={foodChild}
             alt="Hungry child"
             className="w-full h-64 object-cover rounded-lg shadow-md hover:border-2 hover:border-gray-400  hover:shadow-2xl transition-shadow duration-300 group-hover:opacity-85 transition"
           />
@@ -73,7 +76,7 @@ function HeroSection() {
         </div>
         <div className="relative group">
           <img
-            src="src/assets/images/water-supply.jpg"
+            src={waterSuppply}
             alt="Thirsty child"
             className="w-full h-64 object-cover rounded-lg shadow-md hover:border-2 hover:border-gray-400  hover:shadow-2xl transition-shadow duration-300 group-hover:opacity-85 transition"
           />

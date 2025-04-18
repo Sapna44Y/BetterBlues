@@ -1,5 +1,7 @@
 import StatsCard from "./StatsCard";
-
+import hungeryChild from "../assets/images/hungry-child.jpg";
+import thirstyChild from "../assets/images/thirsty-child.jpg";
+import eductionChild from "../assets/images/education-child.jpg";
 export default function StatsSection() {
   return (
     <section className="my-6">
@@ -20,7 +22,7 @@ export default function StatsSection() {
           goal="$35,000"
           title="Education Fund"
           description="Helping 1,200+ children access quality education annually"
-          imageSrc="/src/assets/images/education-child.jpg"
+          imageSrc={eductionChild}
         />
         <StatsCard
           percentage={25}
@@ -28,7 +30,7 @@ export default function StatsSection() {
           goal="$35,000"
           title="Nutrition Program"
           description="Providing 5,000+ meals monthly to malnourished children"
-          imageSrc="/src/assets/images/hungry-child.jpg"
+          imageSrc={hungeryChild}
         />
         <StatsCard
           percentage={50}
@@ -36,7 +38,7 @@ export default function StatsSection() {
           goal="$35,000"
           title="Clean Water Initiative"
           description="Bringing clean water to 15 villages this year"
-          imageSrc="/src/assets/images/thirsty-child.jpg"
+          imageSrc={thirstyChild}
         />
       </div>
     </section>
