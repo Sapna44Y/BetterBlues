@@ -16,7 +16,7 @@ export default function About() {
   return (
     <>
       <Header />
-      <main className="container mx-auto px-4 md:px-8 mt-12 py-12">
+      <main className="container mx-auto px-10 md:px-8 mt-12 py-12">
         {/* Hero Section */}
         <section className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-blue-800 mb-6">

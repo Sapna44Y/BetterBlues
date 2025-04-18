@@ -76,7 +76,7 @@ export default function Events() {
   return (
     <>
       <Header />
-      <main className="container mx-auto px-4 sm:px-6 mt-12 lg:px-8 py-12">
+      <main className="container mx-auto px-4 sm:px-6 mt-12 lg:px-10 py-12">
         {/* Hero Section */}
         <section className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-blue-800 mb-4">

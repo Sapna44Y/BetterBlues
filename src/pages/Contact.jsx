@@ -13,7 +13,7 @@ export default function Contact() {
   return (
     <>
       <Header />
-      <main className="container mx-auto px-12 mt-12 py-14">
+      <main className="container mx-auto px-10 mt-12 py-14">
         {/* Hero Section */}
         <section className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-blue-800 mb-4">
