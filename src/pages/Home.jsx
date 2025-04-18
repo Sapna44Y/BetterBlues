@@ -73,7 +73,7 @@ function HeroSection() {
         </div>
         <div className="relative group">
           <img
-            src="/src/assets/images/water-supply.jpg"
+            src="src/assets/images/water-supply.jpg"
             alt="Thirsty child"
             className="w-full h-64 object-cover rounded-lg shadow-md hover:border-2 hover:border-gray-400  hover:shadow-2xl transition-shadow duration-300 group-hover:opacity-85 transition"
           />
